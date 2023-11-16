@@ -94,10 +94,11 @@ def main():
         action = input("\nChoose an action: [A]dd, [R]emove, [C]lear all, [S]et directories, [E]xecute, [Q]uit: ").strip().upper()
         
         if action == "A":
-            print("\nAdd a flag/folder pair. Inputs are case-sensitive.\nExample 1: Flag: 'POS', Folder: 'positive'\nExample 2: Flag: 'HAP', Folder: 'positive/happy'\n")
-            flag = input("Enter the flag to look for in filenames: ")
-            folder = input("Enter the folder name for this flag: ")
-            flag_folder_map[flag] = folder
+            print("\nAdd flag/folder pairs. Inputs are case-sensitive.\nYou can enter multiple flags separated by commas and have nested folders.\nExample 1: Flags: 'POS', Folder: 'positive'\nExample 2: Flags: 'JPG', 'PNG', Folder: 'images'\nExample 3: Flags: 'hap', 'joy', Folder: 'sentiment/positive'\n")
+            flags = input("Enter the flag(s) to look for in filenames (comma-separated): ")
+            folder = input("Enter the folder name to pair with the flag(s): ")
+            for flag in flags.split(','):
+                flag_folder_map[flag.strip()] = folder
         elif action == "R":
             print("\nRemove a flag/folder pair. Enter the exact flag to remove it.\n")
             if len(flag_folder_map) == 0:
