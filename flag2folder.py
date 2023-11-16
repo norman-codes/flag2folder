@@ -77,7 +77,7 @@ def print_goodbye_ascii_art():
 def main():
     print_ascii_art()
     print("Welcome to flag2folder!")
-    print("A tool easily sort files into designated folders\nusing custom flag/folder pairs.\n")
+    print("A tool to easily sort files into designated folders\nusing custom flag/folder pairs.\n")
     src_dir = os.getcwd()
     dest_dir = os.getcwd()
 
