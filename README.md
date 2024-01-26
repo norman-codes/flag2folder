@@ -56,10 +56,10 @@ Ideal for organizing datasets, managing document libraries, or simply keeping yo
    - To exit the script, choose the [Q]uit action.
 
 ## Example Usage
-Some example files exist by default for testing. Let's take a look at them and walk through flag2folder's functionality with them.
+Let's take a look at some example files and walk through Flag2Folder's functionality with them.
 
 ### The Files
-Flag2Folder works with any file type, but for simplicity we're using these 6 text files:
+Flag2Folder works with any file type, but for simplicity we're using these 6 hypothetical text files:
   - f1_abc.txt
   - f1_def.txt
   - f1_ghi.txt
