@@ -17,7 +17,7 @@ Welcome to Flag2Folder! This tool allows you to organize files into specified fo
 
 ## Use Case
 
-Ideal for organizing datasets, managing document libraries, or simply keeping your download folder uncluttered. Whether you're a data scientist, a software developer, or just someone who loves organization, flag2folder is here to help streamline your file management.
+Ideal for organizing datasets, managing document libraries, or simply keeping your download folder uncluttered. Whether you're a data scientist, a software developer, or just someone who loves organization, Flag2Folder is here to help streamline your file management.
 
 ## Key Features
 
@@ -71,7 +71,7 @@ Any part of the file's name can be considered a flag. Here, the files are distin
 
 ### Adding a Flag/Folder Pair
 
-Suppose you want to sort the files with "f1" in their name into a folder called Flag1 and "f2" into a folder called Flag2.
+Suppose you want to sort the files with "f1" in their name into a folder called Flag 1 and "f2" into a folder called Flag 2.
 
 We can do this by running the [A]dd option and entering the following:
 ```
@@ -103,11 +103,11 @@ A preview of the file structure is provided for you to double-check before execu
 Once you do, notice that now the file structure has changed. Instead of 6 text files, you now have 2 folders, Flag 1 and Flag 2, inside of which you have their corresponding files.
 
 ```
-Flag1
+Flag 1
   - f1_abc.txt
   - f1_def.txt
   - f1_ghi.txt
-Flag2
+Flag 2
   - f2_abc.txt
   - f2_def.txt
   - f2_ghi.txt
