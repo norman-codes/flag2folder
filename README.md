@@ -34,12 +34,12 @@ Ideal for organizing datasets, managing document libraries, or simply keeping yo
 - Execute and watch your files get organized effortlessly!
 
 ## How to Use
-1. **Choose Your Files**: Start by uploading the files you want to organize into this Replit workspace, or using the ones provided by default for testing.
+1. **Choose Your Files**: Start by choosing the files you want to work on and placing the script in the same directory as them.
 
-2. **Run the Script**: Click the 'Run' button to start the script. It will initiate in the Replit console.
+2. **Run the Script**: This is a console-based program, so running it in some type of terminal is necessary. This can be done in a native terminal application, or within an IDE such as VS Code.
 
 3. **Set Directories** (Optional):
-   - The script uses the current working directory in Replit by default.
+   - The script uses the current working directory by default.
    - To change source and destination directories, use the [S]et directories option.
 
 4. **Manage Flag/Folder Pairs**:
