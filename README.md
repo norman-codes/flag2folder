@@ -60,12 +60,14 @@ Let's take a look at some example files and walk through Flag2Folder's functiona
 
 ### The Files
 Flag2Folder works with any file type, but for simplicity we're using these 6 hypothetical text files:
-  - f1_abc.txt
-  - f1_def.txt
-  - f1_ghi.txt
-  - f2_abc.txt
-  - f2_def.txt
-  - f3_ghi.txt
+```
+f1_abc.txt
+f1_def.txt
+f1_ghi.txt
+f2_abc.txt
+f2_def.txt
+f2_ghi.txt
+```
 
 Any part of the file's name can be considered a flag. Here, the files are distinctly labeled with "f1" and "f2" as clear examples of flags, but you could also use any part of the file name, such as "abc" or even "_".
 
